@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "Hungry": {
+      "type": "boolean"
+    },
+    "Birthday": {
+      "type": "date"
+    }
+  }
+}
