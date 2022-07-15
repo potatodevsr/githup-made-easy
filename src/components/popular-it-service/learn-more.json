@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_popular_it_service_learn_mores",
+  "info": {
+    "displayName": "learn more",
+    "icon": "arrow-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pretitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "Popular": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "popular-it-service.list"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_our_recent_our_recent_projects",
+  "info": {
+    "displayName": "Our recent project",
+    "icon": "arrow-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pretitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "recent": {
+      "displayName": "list project ",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-recent.list-project"
+    }
+  }
+}

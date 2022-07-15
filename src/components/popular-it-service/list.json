@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_popular_it_service_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "pretitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

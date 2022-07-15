@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_how_we_can_how_we_cans",
+  "info": {
+    "displayName": "How we can",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "services": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": true,
+      "component": "how-we-can.services"
+    },
+    "paragraph": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_company_features",
+  "info": {
+    "displayName": "Feature",
+    "icon": "arrow-alt-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "richtext"
+    }
+  }
+}

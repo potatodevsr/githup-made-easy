@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_about_company_about_companies",
+  "info": {
+    "displayName": "About company",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "Feature": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-company.feature"
+    },
+    "pretitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_our_recent_list_project_s",
+  "info": {
+    "displayName": "list project ",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "pretitle": {
+      "type": "string"
+    }
+  }
+}
